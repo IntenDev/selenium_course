@@ -14,7 +14,6 @@ try:
 
     x_element = browser.find_element(By.CSS_SELECTOR, "#input_value")
     x = x_element.text
-    print(x)
     y = calc(x)
 
     input1 = browser.find_element(By.CSS_SELECTOR, "#answer")
